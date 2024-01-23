@@ -1,0 +1,21 @@
+{
+    "name": "pie-releases-update-notify",
+    "title": "Get notified when new PIE Releases are available",
+    "description": "PIE Design System Assitant",
+    "mode": "view",
+    "preferences": [
+        {
+            "name": "npmToken",
+            "title": "PIE NPM Token",
+            "description": "The NPM Token for the PIE npm user (reach out to design system team for access)",
+            "type": "password",
+            "required": true
+        }
+    ]
+},
+{
+    "name": "get-pie-color-tokens",
+    "title": "View PIE Design Tokens - Color",
+    "description": "Show your PIE alias tokens",
+    "mode": "view"
+},
